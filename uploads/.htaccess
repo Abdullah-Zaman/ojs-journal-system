@@ -1,0 +1,14 @@
+# Security: prevent execution of scripts inside the uploads folder,
+# and stop directory listing, so an uploaded file can never be run as code.
+
+Options -Indexes
+
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|pl|py|cgi|asp|aspx|sh|exe)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>

@@ -1,0 +1,18 @@
+# Uploaded paper files (keep the folder, ignore actual uploads)
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local env overrides (if you create one later)
+config/local.php
+
+# Local design exploration / scratch files (not part of the app)
+Claude outputs/
+sample-paper.pdf
+seed_reviewers.php
