@@ -12,6 +12,26 @@ A lightweight, OJS-inspired scholarly journal management system built with **PHP
 - Professional, responsive dashboard UI with a sidebar layout, stat cards and status badges
 - Secure password hashing (bcrypt), prepared statements (SQL-injection safe), upload folder locked against script execution
 
+## Screenshots
+
+**Public homepage**
+![Public homepage](docs/screenshots/01-public-homepage.png)
+
+**Author submitting a new paper**
+![Author submit paper](docs/screenshots/02-author-submit-paper.png)
+
+**Editor dashboard**
+![Editor dashboard](docs/screenshots/03-editor-dashboard.png)
+
+**Editor assigning reviewers and recording a decision**
+![Editor manage submission](docs/screenshots/04-editor-manage-submission.png)
+
+**Reviewer submitting comments and a recommendation**
+![Reviewer review](docs/screenshots/05-reviewer-review.png)
+
+**Published issues page**
+![Published issues](docs/screenshots/06-published-issues.png)
+
 ## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap 5 (+ Bootstrap Icons)
